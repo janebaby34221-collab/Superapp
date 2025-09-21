@@ -1,0 +1,532 @@
+diff --git a/.env.example b/.env.example
+new file mode 100644
+index 0000000..0c38c61
+--- /dev/null
++++ b/.env.example
+@@
+# Backend
+PORT=4000
+DATABASE_URL=postgresql://superapp:superapp@postgres:5432/superapp
+REDIS_URL=redis://redis:6379
+
+# Frontend
+VITE_API_URL=http://localhost:4000
+diff --git a/.env.example b/.env.example
+new file mode 100644
+index 0000000..0c38c61
+--- /dev/null
++++ b/.env.example
+@@
+# Backend
+PORT=4000
+DATABASE_URL=postgresql://superapp:superapp@postgres:5432/superapp
+REDIS_URL=redis://redis:6379
+
+# Frontend
+VITE_API_URL=http://localhost:4000
+diff --git a/.env.example b/.env.example
+new file mode 100644
+index 0000000..0c38c61
+--- /dev/null
++++ b/.env.example
+@@
+# Backend
+PORT=4000
+DATABASE_URL=postgresql://superapp:superapp@postgres:5432/superapp
+REDIS_URL=redis://redis:6379
+
+# Frontend
+VITE_API_URL=http://localhost:4000
+diff --git a/.env.example b/.env.example
+new file mode 100644
+index 0000000..0c38c61
+--- /dev/null
++++ b/.env.example
+@@
+# Backend
+PORT=4000
+DATABASE_URL=postgresql://superapp:superapp@postgres:5432/superapp
+REDIS_URL=redis://redis:6379
+
+# Frontend
+VITE_API_URL=http://localhost:4000
+diff --git a/.env.example b/.env.example
+new file mode 100644
+index 0000000..0c38c61
+--- /dev/null
++++ b/.env.example
+@@
+# Backend
+PORT=4000
+DATABASE_URL=postgresql://superapp:superapp@postgres:5432/superapp
+REDIS_URL=redis://redis:6379
+
+# Frontend
+VITE_API_URL=http://localhost:4000
+diff --git a/.env.example b/.env.example
+new file mode 100644
+index 0000000..0c38c61
+--- /dev/null
++++ b/.env.example
+@@
+# Backend
+PORT=4000
+DATABASE_URL=postgresql://superapp:superapp@postgres:5432/superapp
+REDIS_URL=redis://redis:6379
+
+# Frontend
+VITE_API_URL=http://localhost:4000
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..3c3b2d2
+--- /dev/null
++++ b/README.md
+@@
+# 🚀 SuperApp Monorepo
+
+This is the starter monorepo for the **SuperApp**.
+
+## Structure
+- **backend/** → Node.js (Express + Prisma + Postgres)
+- **frontend/** → React + Vite
+- **infra/** → CI/CD
+- **docker-compose.yml** → dev stack
+
+## Getting Started
+```bash
+docker compose up --build
+
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..3c3b2d2
+--- /dev/null
++++ b/README.md
+@@
+# 🚀 SuperApp Monorepo
+
+This is the starter monorepo for the **SuperApp**.
+
+## Structure
+- **backend/** → Node.js (Express + Prisma + Postgres)
+- **frontend/** → React + Vite
+- **infra/** → CI/CD
+- **docker-compose.yml** → dev stack
+
+## Getting Started
+```bash
+docker compose up --build
+
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..3c3b2d2
+--- /dev/null
++++ b/README.md
+@@
+# 🚀 SuperApp Monorepo
+
+This is the starter monorepo for the **SuperApp**.
+
+## Structure
+- **backend/** → Node.js (Express + Prisma + Postgres)
+- **frontend/** → React + Vite
+- **infra/** → CI/CD
+- **docker-compose.yml** → dev stack
+
+## Getting Started
+```bash
+docker compose up --build
+
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..3c3b2d2
+--- /dev/null
++++ b/README.md
+@@
+# 🚀 SuperApp Monorepo
+
+This is the starter monorepo for the **SuperApp**.
+
+## Structure
+- **backend/** → Node.js (Express + Prisma + Postgres)
+- **frontend/** → React + Vite
+- **infra/** → CI/CD
+- **docker-compose.yml** → dev stack
+
+## Getting Started
+```bash
+docker compose up --build
+
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..3c3b2d2
+--- /dev/null
++++ b/README.md
+@@
+# 🚀 SuperApp Monorepo
+
+This is the starter monorepo for the **SuperApp**.
+
+## Structure
+- **backend/** → Node.js (Express + Prisma + Postgres)
+- **frontend/** → React + Vite
+- **infra/** → CI/CD
+- **docker-compose.yml** → dev stack
+
+## Getting Started
+```bash
+docker compose up --build
+
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..3c3b2d2
+--- /dev/null
++++ b/README.md
+@@
+# 🚀 SuperApp Monorepo
+
+This is the starter monorepo for the **SuperApp**.
+
+## Structure
+- **backend/** → Node.js (Express + Prisma + Postgres)
+- **frontend/** → React + Vite
+- **infra/** → CI/CD
+- **docker-compose.yml** → dev stack
+
+## Getting Started
+```bash
+docker compose up --build
+
+u
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..3c3b2d2
+--- /dev/null
++++ b/README.md
+@@
+# 🚀 SuperApp Monorepo
+
+This is the starter monorepo for the **SuperApp**.
+
+## Structure
+- **backend/** → Node.js (Express + Prisma + Postgres)
+- **frontend/** → React + Vite
+- **infra/** → CI/CD
+- **docker-compose.yml** → dev stack
+
+## Getting Started
+```bash
+docker compose up --build
+
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..3c3b2d2
+--- /dev/null
++++ b/README.md
+@@
+# 🚀 SuperApp Monorepo
+
+This is the starter monorepo for the **SuperApp**.
+
+## Structure
+- **backend/** → Node.js (Express + Prisma + Postgres)
+- **frontend/** → React + Vite
+- **infra/** → CI/CD
+- **docker-compose.yml** → dev stack
+
+## Getting Started
+```bash
+docker compose up --build
+
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..3c3b2d2
+--- /dev/null
++++ b/README.md
+@@
+# 🚀 SuperApp Monorepo
+
+This is the starter monorepo for the **SuperApp**.
+
+## Structure
+- **backend/** → Node.js (Express + Prisma + Postgres)
+- **frontend/** → React + Vite
+- **infra/** → CI/CD
+- **docker-compose.yml** → dev stack
+
+## Getting Started
+```bash
+docker compose up --build
+
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..3c3b2d2
+--- /dev/null
++++ b/README.md
+@@
+# 🚀 SuperApp Monorepo
+
+This is the starter monorepo for the **SuperApp**.
+
+## Structure
+- **backend/** → Node.js (Express + Prisma + Postgres)
+- **frontend/** → React + Vite
+- **infra/** → CI/CD
+- **docker-compose.yml** → dev stack
+
+## Getting Started
+```bash
+docker compose up --build
+
+u
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..3c3b2d2
+--- /dev/null
++++ b/README.md
+@@
+# 🚀 SuperApp Monorepo
+
+This is the starter monorepo for the **SuperApp**.
+
+## Structure
+- **backend/** → Node.js (Express + Prisma + Postgres)
+- **frontend/** → React + Vite
+- **infra/** → CI/CD
+- **docker-compose.yml** → dev stack
+
+## Getting Started
+```bash
+docker compose up --build
+
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..3c3b2d2
+--- /dev/null
++++ b/README.md
+@@
+# 🚀 SuperApp Monorepo
+
+This is the starter monorepo for the **SuperApp**.
+
+## Structure
+- **backend/** → Node.js (Express + Prisma + Postgres)
+- **frontend/** → React + Vite
+- **infra/** → CI/CD
+- **docker-compose.yml** → dev stack
+
+## Getting Started
+```bash
+docker compose up --build
+
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..3c3b2d2
+--- /dev/null
++++ b/README.md
+@@
+# 🚀 SuperApp Monorepo
+
+This is the starter monorepo for the **SuperApp**.
+
+## Structure
+- **backend/** → Node.js (Express + Prisma + Postgres)
+- **frontend/** → React + Vite
+- **infra/** → CI/CD
+- **docker-compose.yml** → dev stack
+
+## Getting Started
+```bash
+docker compose up --build
+
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..3c3b2d2
+--- /dev/null
++++ b/README.md
+@@
+# 🚀 SuperApp Monorepo
+
+This is the starter monorepo for the **SuperApp**.
+
+## Structure
+- **backend/** → Node.js (Express + Prisma + Postgres)
+- **frontend/** → React + Vite
+- **infra/** → CI/CD
+- **docker-compose.yml** → dev stack
+
+## Getting Started
+```bash
+docker compose up --build
+
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..3c3b2d2
+--- /dev/null
++++ b/README.md
+@@
+# 🚀 SuperApp Monorepo
+
+This is the starter monorepo for the **SuperApp**.
+
+## Structure
+- **backend/** → Node.js (Express + Prisma + Postgres)
+- **frontend/** → React + Vite
+- **infra/** → CI/CD
+- **docker-compose.yml** → dev stack
+
+## Getting Started
+```bash
+docker compose up --build
+
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..3c3b2d2
+--- /dev/null
++++ b/README.md
+@@
+# 🚀 SuperApp Monorepo
+
+This is the starter monorepo for the **SuperApp**.
+
+## Structure
+- **backend/** → Node.js (Express + Prisma + Postgres)
+- **frontend/** → React + Vite
+- **infra/** → CI/CD
+- **docker-compose.yml** → dev stack
+
+## Getting Started
+```bash
+docker compose up --build
+
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..3c3b2d2
+--- /dev/null
++++ b/README.md
+@@
+# 🚀 SuperApp Monorepo
+
+This is the starter monorepo for the **SuperApp**.
+
+## Structure
+- **backend/** → Node.js (Express + Prisma + Postgres)
+- **frontend/** → React + Vite
+- **infra/** → CI/CD
+- **docker-compose.yml** → dev stack
+
+## Getting Started
+```bash
+docker compose up --build
+
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..3c3b2d2
+--- /dev/null
++++ b/README.md
+@@
+# 🚀 SuperApp Monorepo
+
+This is the starter monorepo for the **SuperApp**.
+
+## Structure
+- **backend/** → Node.js (Express + Prisma + Postgres)
+- **frontend/** → React + Vite
+- **infra/** → CI/CD
+- **docker-compose.yml** → dev stack
+
+## Getting Started
+```bash
+docker compose up --build
+
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..3c3b2d2
+--- /dev/null
++++ b/README.md
+@@
+# 🚀 SuperApp Monorepo
+
+This is the starter monorepo for the **SuperApp**.
+
+## Structure
+- **backend/** → Node.js (Express + Prisma + Postgres)
+- **frontend/** → React + Vite
+- **infra/** → CI/CD
+- **docker-compose.yml** → dev stack
+
+## Getting Started
+```bash
+docker compose up --build
+
+
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..3c3b2d2
+--- /dev/null
++++ b/README.md
+@@
+# 🚀 SuperApp Monorepo
+
+This is the starter monorepo for the **SuperApp**.
+
+## Structure
+- **backend/** → Node.js (Express + Prisma + Postgres)
+- **frontend/** → React + Vite
+- **infra/** → CI/CD
+- **docker-compose.yml** → dev stack
+
+## Getting Started
+```bash
+docker compose up --build
+
+diff --git a/.env.example b/.env.example
+new file mode 100644
+index 0000000..0c38c61
+--- /dev/null
++++ b/.env.example
+@@
+# Backend
+PORT=4000
+DATABASE_URL=postgresql://superapp:superapp@postgres:5432/superapp
+REDIS_URL=redis://redis:6379
+
+# Frontend
+VITE_API_URL=http://localhost:4000
+diff --git a/README.md b/README.md
+new file mode 100644
+index 0000000..3c3b2d2
+--- /dev/null
++++ b/README.md
+@@
+# 🚀 SuperApp Monorepo
+
+This is the starter monorepo for the **SuperApp** (rides, wallet, social, media, AI, etc.).
+
+## Structure
+- **backend/** → Node.js (Express + Prisma + Postgres)
+- **frontend/** → React + Vite
+- **docker-compose.yml** → dev stack (db + redis + services)
+- **.github/workflows/ci.yml** → CI pipeline
+
+## Getting Started
+```bash
+# Start dev stack
+docker compose up --build
+
