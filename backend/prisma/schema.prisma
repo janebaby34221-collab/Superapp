@@ -1,0 +1,72 @@
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "linux-arm64-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  SUPERADMIN
+  ADMIN
+  USER
+  DRIVER
+}
+
+model User {
+  id        Int       @id @default(autoincrement())
+  name      String
+  email     String    @unique
+  phone     String    @unique
+  password  String
+  role      Role      @default(USER)
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  rides     Ride[]
+  payments  Payment[]
+}
+
+model Vehicle {
+  id        Int       @id @default(autoincrement())
+  type      String
+  plate     String    @unique
+  driver    String
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  rides     Ride[]
+}
+
+model Ride {
+  id          Int       @id @default(autoincrement())
+  origin      String
+  destination String
+  status      String    @default("pending")
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  userId      Int
+  vehicleId   Int?
+
+  user        User      @relation(fields: [userId], references: [id])
+  vehicle     Vehicle?  @relation(fields: [vehicleId], references: [id])
+  payments    Payment[]
+}
+
+model Payment {
+  id        Int       @id @default(autoincrement())
+  amount    Float
+  method    String
+  status    String    @default("completed")
+  createdAt DateTime  @default(now())
+
+  userId    Int
+  rideId    Int
+
+  user      User      @relation(fields: [userId], references: [id])
+  ride      Ride      @relation(fields: [rideId], references: [id])
+}
+
