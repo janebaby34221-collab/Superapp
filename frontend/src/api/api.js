@@ -1,9 +1,10 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://superapp-rhas.onrender.com/api", // your backend URL
+  baseURL: import.meta.env.VITE_API_URL, // Backend URL from your .env file
 });
 
+// Automatically include token for authenticated users
 API.interceptors.request.use((req) => {
   const token = localStorage.getItem("token");
   if (token) req.headers.Authorization = `Bearer ${token}`;
