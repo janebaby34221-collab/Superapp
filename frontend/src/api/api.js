@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: import.meta.env.VITE_API_URL, // Backend URL from your .env file
+  baseURL: import.meta.env.VITE_API_URL, // Uses .env variable
 });
 
 // Automatically include token for authenticated users
